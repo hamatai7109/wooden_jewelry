@@ -1,0 +1,52 @@
+@media screen and (max-width:1060px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .inner{
+        width: 100%;
+    }
+
+    .top-pic{
+        height: 400px;        
+    }
+
+    section{
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .section-img-container{
+        width: 100%;
+    }
+    
+    .section-img{
+        width: 90%;
+        object-fit: cover;
+    }
+    
+    .section-details-container{
+        width: 80%;
+        padding: 10px;
+    
+    }
+    
+    .section-title{
+        margin-bottom: 0;
+    }
+    
+    .section-eng{
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .work .section-details-container{
+        order: 1;
+    }
+
+}
