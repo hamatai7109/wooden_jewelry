@@ -11,6 +11,10 @@
     .top-pic{
         height: 400px;        
     }
+    
+    header{
+        justify-content: space-around;
+    }
 
     section{
         margin-right: 0;
